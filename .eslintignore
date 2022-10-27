@@ -1,0 +1,8 @@
+.gitignore
+.prettierignore
+node_modules
+public
+styles
+.next
+.idea
+.vscode

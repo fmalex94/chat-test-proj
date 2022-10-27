@@ -1,0 +1,28 @@
+{
+  "name": "chat---react_express_socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node chat-server",
+    "dev": "nodemon chat-server",
+    "build": "npm --prefix chat-client install && npm run --prefix chat-client build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+    "engines": {
+    "node": "16.13.2",
+    "npm": "8.7.0"
+  }
+}

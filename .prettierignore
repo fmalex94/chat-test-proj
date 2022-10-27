@@ -1,0 +1,6 @@
+.next
+.vscode
+.idea/*
+.expo
+node_modules
+public
